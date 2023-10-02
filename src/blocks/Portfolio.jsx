@@ -5,75 +5,7 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
-import Slider from "react-slick";
 import PortfolioList from "../elements/portfolio/PortfolioList";
-import { slickDot , portfolioSlick2 } from "../page-demo/script";
-
-const list = [
-    {
-        image: 'image-1',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-2',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    }
-]
-
-const PortfolioList2 = [
-    {
-        image: 'image-1',
-        category: 'Development',
-        title: ' Getting tickets to the big show'
-    },
-    {
-        image: 'image-2',
-        category: 'Development',
-        title: ' Getting tickets to the big show'
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: ' Getting tickets to the big show'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: ' Getting tickets to the big show'
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: ' Getting tickets to the big show'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: ' Getting tickets to the big show'
-    }
-]
 
 const Portfolio = () => {
     return (
@@ -98,25 +30,6 @@ const Portfolio = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="slick-space-gutter--15 slickdot--20">
-                                        <Slider {...slickDot}>
-                                            {list.map((value , index) => (
-                                                <div className="portfolio" key={index}>
-                                                    <div className="thumbnail-inner">
-                                                        <div className={`thumbnail ${value.image}`}></div>
-                                                        <div className={`bg-blr-image ${value.image}`}></div>
-                                                    </div>
-                                                    <div className="content">
-                                                        <div className="inner">
-                                                            <p>{value.category}</p>
-                                                            <h4><a href="/portfolio-details">{value.title}</a></h4>
-                                                            <div className="portfolio-button">
-                                                                <a className="rn-btn" href="/portfolio-details">Case Study</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            ))}
-                                        </Slider>
                                     </div>
                                 </div>
                             </div>
@@ -168,25 +81,6 @@ const Portfolio = () => {
                     </div>
                     <div className="wrapper portfolio-sacousel-inner mb--55">
                         <div className="portfolio-slick-activation mt--70 mt_sm--40">
-                            <Slider {...portfolioSlick2}>
-                                {PortfolioList2.map((value , index) => (
-                                    <div className="portfolio" key={index}>
-                                        <div className="thumbnail-inner">
-                                            <div className={`thumbnail ${value.image}`}></div>
-                                            <div className={`bg-blr-image ${value.image}`}></div>
-                                        </div>
-                                        <div className="content">
-                                            <div className="inner">
-                                                <p>{value.category}</p>
-                                                <h4><a href="/portfolio-details">{value.title}</a></h4>
-                                                <div className="portfolio-button">
-                                                    <a className="rn-btn" href="/portfolio-details">Case Study</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                ))}
-                            </Slider>
                         </div>
                     </div>
                 </div>

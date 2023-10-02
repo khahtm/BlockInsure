@@ -8,7 +8,7 @@ const CallAction = () => {
                         <div className="inner text-center">
                             <span>Collaborate, Innovate, Grow: Join as a Valued BlockInsure Partner!</span>
                             <h2>Join with us now!</h2>
-                            <a className="rn-button-style--2" href=""><span>Apply here</span></a>
+                            <a className="rn-button-style--2" href="/home"><span>Apply here</span></a>
                         </div>
                     </div>
                 </div>
