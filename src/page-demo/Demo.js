@@ -40,7 +40,7 @@ const featureList = [
     {
         icon: <FiSmartphone/>,
         title: 'Perfect Responsive',
-        subtitle: 'Our Template is full Perfect for all device. You can visit our template all device easily.'
+        subtitle: 'Our  is full Perfect for all device. You can visit our  all device easily.'
     },
     {
         icon: <FiCode/>,
@@ -79,14 +79,14 @@ const singleDemo = [
         url: 'main-demo',
         imageUrl: 'demo-home.png',
         title: 'Main Demo',
-        description: 'Our Template is perfect for creative agency.All agencies use this template for all purpose.',
+        description: 'Our  is perfect for creative agency.All agencies use this  for all purpose.',
         label: ''
     },
     {
         url: 'dark-main-demo',
         imageUrl: 'dark-main-demo.png',
         title: 'Main Demo — Dark Version',
-        description: 'Our Template is perfect for creative agency.All agencies use this template for all purpose.',
+        description: 'Our  is perfect for creative agency.All agencies use this  for all purpose.',
         label: 'New'
     },
     {
@@ -121,7 +121,7 @@ const singleDemo = [
         url: 'interior-landing',
         imageUrl: 'interior-design.png',
         title: 'Interior Design',
-        description: 'A interior design comes for new interior agency company. Our can hire your clint by using this template. It has landing page feature available.',
+        description: 'A interior design comes for new interior agency company. Our can hire your clint by using this . It has landing page feature available.',
         label: 'New'
     },
     {
@@ -175,7 +175,7 @@ const singleDemo = [
         url: 'portfolio-home',
         imageUrl: 'portfolio-home.png',
         title: 'Minimal Portfolio',
-        description: 'Its a minimal portfolio template. You can be showing your portfolio perfectly by using this template.',
+        description: 'Its a minimal portfolio . You can be showing your portfolio perfectly by using this .',
         label: ''
     },
 
@@ -183,7 +183,7 @@ const singleDemo = [
         url: 'digital-agency',
         imageUrl: 'digital-agency.png',
         title: 'Digital Agency',
-        description: 'A Digital Agency template is a nice slider animation, faster loading and all features available for agencies.',
+        description: 'A Digital Agency  is a nice slider animation, faster loading and all features available for agencies.',
         label: ''
     },
     {
@@ -197,7 +197,7 @@ const singleDemo = [
         url: 'startup',
         imageUrl: 'startup.png',
         title: 'Startup',
-        description: 'A modern and nice design template that can be all startup agencies for all kinds of startup purpose.',
+        description: 'A modern and nice design  that can be all startup agencies for all kinds of startup purpose.',
         label: ''
     },
     {
@@ -243,7 +243,7 @@ const agencyDemo = [
         url: 'main-demo',
         imageUrl: 'demo-home.png',
         title: 'Main Demo',
-        description: 'Our Template is perfect for creative agency.All agencies use this template for all purpose.',
+        description: 'Our Templte is perfect for creative agency.All agencies use this  for all purpose.',
         label: ''
     },
     {
@@ -271,7 +271,7 @@ const agencyDemo = [
         url: 'digital-agency',
         imageUrl: 'digital-agency.png',
         title: 'Digital Agency',
-        description: 'A Digital Agency template is a nice slider animation, faster loading and all features available for agencies.',
+        description: 'A Digital Agency  is a nice slider animation, faster loading and all features available for agencies.',
         label: ''
     },
     {
@@ -292,7 +292,7 @@ const agencyDemo = [
         url: 'dark-main-demo',
         imageUrl: 'dark-main-demo.png',
         title: 'Main Demo — Dark Version',
-        description: 'Our Template is perfect for creative agency.All agencies use this template for all purpose.',
+        description: 'Our  is perfect for creative agency.All agencies use this  for all purpose.',
         label: 'New'
     },
     {
@@ -306,7 +306,7 @@ const agencyDemo = [
         url: 'interior-landing',
         imageUrl: 'interior-design.png',
         title: 'Interior Design',
-        description: 'A interior design comes for new interior agency company. Our can hire your clint by using this template. It has landing page feature available.',
+        description: 'A interior design comes for new interior agency company. Our can hire your clint by using this . It has landing page feature available.',
         label: 'New'
     },
     {
@@ -330,7 +330,7 @@ const busenessDemo = [
         url: 'startup',
         imageUrl: 'startup.png',
         title: 'Startup',
-        description: 'A modern and nice design template that can be all startup agencies for all kinds of startup purpose.',
+        description: 'A modern and nice design  that can be all startup agencies for all kinds of startup purpose.',
         label: ''
     },
     {
@@ -404,7 +404,7 @@ const portfolioList = [
         url: 'portfolio-home',
         imageUrl: 'portfolio-home.png',
         title: 'Minimal Portfolio',
-        description: 'Its a minimal portfolio template. You can be showing your portfolio perfectly by using this template.',
+        description: 'Its a minimal portfolio . You can be showing your portfolio perfectly by using this .',
         label: ''
     },
     {
@@ -445,7 +445,7 @@ const landingPage = [
         url: 'interior-landing',
         imageUrl: 'interior-design.png',
         title: 'Interior Design',
-        description: 'A interior design comes for new interior agency company. Our can hire your clint by using this template. It has landing page feature available.',
+        description: 'A interior design comes for new interior agency company. Our can hire your clint by using this . It has landing page feature available.',
         label: 'New'
     },
     {
@@ -484,7 +484,7 @@ const newDemoList = [
         url: 'interior-landing',
         imageUrl: 'interior-design.png',
         title: 'Interior Design',
-        description: 'A interior design comes for new interior agency company. Our can hire your clint by using this template. It has landing page feature available.',
+        description: 'A interior design comes for new interior agency company. Our can hire your clint by using this . It has landing page feature available.',
         label: 'New'
     },
     {
@@ -570,7 +570,7 @@ class Demo extends Component {
                                                 <img src="/assets/images/logo/logo-all-dark.png" alt="Trydo Images"/>
                                             </a>
                                         </div>
-                                        <p className="title">Welcome to TryDO React Creative Agency, React Portfolio and Corporate Multi Purpose Template Built With React JS. NO jQuery!</p>
+                                        <p className="title">Welcome to TryDO React Creative Agency, React Portfolio and Corporate Multi Purpose  Built With React JS. NO jQuery!</p>
                                         <div className="purshase-btn">
                                             <a href="https://themeforest.net/checkout/from_item/25457315?license=regular" target="_blank" className="rn-button-style--2 btn-solid">BUY Now</a>
                                             <a href="#demo" className="rn-button-style--2 btn-border rn-btn-dark border-opacity-half">View Demos</a>
@@ -900,14 +900,14 @@ class Demo extends Component {
                                                     </AccordionItemButton>
                                                 </AccordionItemHeading>
                                                 <AccordionItemPanel>
-                                                    <p>Welcome to TryDO React Creative Agency, React Portfolio and Corporate Multi Purpose Template Built With React JS. NO jQuery!. It works too much faster loading speed and you can works too much comfortability.Trydo create your website so much faster, use to use and Well Documented Codes for your customization.</p>
+                                                    <p>Welcome to TryDO React Creative Agency, React Portfolio and Corporate Multi Purpose  Built With React JS. NO jQuery!. It works too much faster loading speed and you can works too much comfortability.Trydo create your website so much faster, use to use and Well Documented Codes for your customization.</p>
                                                 </AccordionItemPanel>
                                             </AccordionItem>
 
                                             <AccordionItem>
                                                 <AccordionItemHeading>
                                                     <AccordionItemButton>
-                                                        2. How can I run trydo react template?
+                                                        2. How can I run trydo react ?
                                                     </AccordionItemButton>
                                                 </AccordionItemHeading>
                                                 <AccordionItemPanel>
@@ -1038,7 +1038,7 @@ class Demo extends Component {
                             <div className="col-lg-12">
                                 <div className="section-title text-center text-white">
                                     <h2 className="title theme-gradient">Say Hello To <br />Trydo Elements</h2>
-                                    <p className="text-white">Our Fantastic Trydo Template Elements</p>
+                                    <p className="text-white">Our Fantastic Trydo  Elements</p>
                                 </div>
                             </div>
                         </div>
@@ -1139,7 +1139,7 @@ class Demo extends Component {
                                                     </div>
                                                     <div className="content">
                                                         <h5>Customizability</h5>
-                                                        <p>Excellent design template and easy to customize if you know
+                                                        <p>Excellent design  and easy to customize if you know
                                                             React. Good
                                                             value.</p>
                                                         <div className="rating">

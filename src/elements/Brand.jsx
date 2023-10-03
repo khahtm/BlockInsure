@@ -15,7 +15,7 @@ class Brand extends Component{
                     <li>
                         <img src="/assets/images/brand/brand-03.png" alt="Logo Images"/>
                     </li>
-                    <li>
+                    {/* <li>
                         <img src="/assets/images/brand/brand-04.png" alt="Logo Images"/>
                     </li>
                     <li>
@@ -23,7 +23,7 @@ class Brand extends Component{
                     </li>
                     <li>
                         <img src="/assets/images/brand/brand-06.png" alt="Logo Images"/>
-                    </li>
+                    </li> */}
                 </ul>
             </React.Fragment>
         )

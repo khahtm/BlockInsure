@@ -107,7 +107,7 @@ class CorporateBusiness extends Component{
 
         return(
             <Fragment> 
-                <Helmet pageTitle="Corporate Business" />
+                <Helmet pageTitle="BlockInsure: Decentralized Coverage, Your Way" />
 
                 {/* Start Header Area  */}
                 <Header headerPosition="header--static logoresize" logo="all-dark" color="color-black"/>
@@ -174,7 +174,7 @@ class CorporateBusiness extends Component{
                                     <h2 className="title">Features</h2>
                                     <p>Decentralized policy control, community-backed claims assessment, and data-driven resolution approach</p>
                                     <div className="service-btn">
-                                        <a className="btn-transparent rn-btn-dark" href="/home"><span className="text">Learn More</span></a>
+                                        <a className="btn-transparent rn-btn-dark" href=""><span className="text">Learn More</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -192,7 +192,7 @@ class CorporateBusiness extends Component{
                                                 <div className="content">
                                                     <h3><a href="/service-details">{value.title}</a></h3>
                                                     <p>{value.description}</p>
-                                                    <a className="btn-transparent rn-btn-dark" href="/home"><span className="text">Read More</span></a>
+                                                    <a className="btn-transparent rn-btn-dark" href=""><span className="text">Read More</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -234,7 +234,7 @@ class CorporateBusiness extends Component{
                                         <Accordion01 />
                                     </div>
                                     <div className="about-button mt--50">
-                                        <a className="rn-button-style--2 btn-solid" href="/home">See how it works</a>
+                                        <a className="rn-button-style--2 btn-solid" href="">See how it works</a>
                                     </div>
                                 </div>
                             </div>
@@ -335,9 +335,9 @@ class CorporateBusiness extends Component{
                                         </div>
                                         <div className="content">
                                             <p className="blogtype">{value.category}</p>
-                                            <h4 className="title"><a href="/home">{value.title}</a></h4>
+                                            <h4 className="title"><a href="">{value.title}</a></h4>
                                             <div className="blog-btn">
-                                                <a className="rn-btn text-white" href="/home">Claim Now</a>
+                                                <a className="rn-btn text-white" href="">Claim Now</a>
                                             </div>
                                         </div>
                                     </div>
