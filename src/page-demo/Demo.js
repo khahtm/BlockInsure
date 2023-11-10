@@ -113,8 +113,8 @@ const singleDemo = [
     {
         url: 'corporate-business',
         imageUrl: 'corporate-business.png',
-        title: 'Corporate Business',
-        description: 'Corporate Business is build for new or any startup business company. It has available all section for corporate business agency company and others business purpose.',
+        title: 'BlockInsure',
+        description: 'BlockInsure is build for new or any startup business company. It has available all section for BlockInsure agency company and others business purpose.',
         label: 'Hot'
     },
     {
@@ -256,8 +256,8 @@ const agencyDemo = [
     {
         url: 'corporate-business',
         imageUrl: 'corporate-business.png',
-        title: 'Corporate Business',
-        description: 'Corporate Business is build for new or any startup business company. It has available all section for corporate business agency company and others business purpose.',
+        title: 'BlockInsure',
+        description: 'BlockInsure is build for new or any startup business company. It has available all section for BlockInsure agency company and others business purpose.',
         label: 'Hot'
     },
     {
@@ -336,8 +336,8 @@ const busenessDemo = [
     {
         url: 'corporate-business',
         imageUrl: 'corporate-business.png',
-        title: 'Corporate Business',
-        description: 'Corporate Business is build for new or any startup business company. It has available all section for corporate business agency company and others business purpose.',
+        title: 'BlockInsure',
+        description: 'BlockInsure is build for new or any startup business company. It has available all section for BlockInsure agency company and others business purpose.',
         label: 'Hot'
     },
     {
@@ -476,8 +476,8 @@ const newDemoList = [
     {
         url: 'corporate-business',
         imageUrl: 'corporate-business.png',
-        title: 'Corporate Business',
-        description: 'Corporate Business is build for new or any startup business company. It has available all section for corporate business agency company and others business purpose.',
+        title: 'BlockInsure',
+        description: 'BlockInsure is build for new or any startup business company. It has available all section for BlockInsure agency company and others business purpose.',
         label: 'Hot'
     },
     {
